@@ -7,5 +7,5 @@ export class Tea extends HotBeverage {
   addCondiments() {
     console.log("Adding lemon...");
   }
-}
+}   
  

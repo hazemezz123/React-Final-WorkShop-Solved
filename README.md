@@ -28,6 +28,18 @@ A React application that fetches and displays news articles from different sourc
 
 **Key Concepts**: Context API, React Router, API Integration, Multiple Data Sources
 
+### [React5 - Factory Pattern](./React5)
+
+A React application demonstrating the Factory Design Pattern implementation for creating different types of buttons dynamically.
+
+**Key Concepts**: Factory Pattern, Design Patterns, Component Creation
+
+### [React6 - Template Method Pattern](./React6)
+
+A React application demonstrating the Template Method Design Pattern using an abstract parent class and concrete subclasses.
+
+**Key Concepts**: Template Method Pattern, Inheritance, Abstract Classes
+
 ## Getting Started
 
 Each project is a standalone React application. Navigate to any project directory and run:

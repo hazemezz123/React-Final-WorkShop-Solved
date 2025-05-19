@@ -1,29 +1,31 @@
-# React 2 - Counter Application
+# React 5 - Factory Pattern
 
-A simple React application that implements counter functionality using the useState hook.
+A React application demonstrating the Factory Design Pattern implementation.
 
 ## Features
 
-- Increment counter
-- Decrement counter
-- Reset counter to zero
-- Clean, responsive UI using Bootstrap
+- Implements the Factory Pattern in JavaScript/React
+- Creates different types of buttons dynamically
+- Uses Bootstrap for styling buttons
 
 ## Components
 
-- **Counter**: Main component that manages the counter state and provides buttons for interaction
+- **FactoryPattern**: Demonstrates the factory pattern by creating different types of buttons based on input parameters
 
 ## How It Works
 
-The application uses the useState hook to manage the counter state. Three functions are implemented:
-- `increment`: Increases the counter by 1
-- `decrement`: Decreases the counter by 1
-- `reset`: Sets the counter back to zero
+The application uses a factory function `createButton` that accepts a button type parameter and returns the appropriate button component:
+
+- "primary" - returns a blue primary button
+- "secondary" - returns a gray secondary button
+- "danger" - returns a red danger button
+- default - returns an info button
+
+This pattern demonstrates object creation that's centralized in a single factory function, which can be useful for component creation that requires complex logic.
 
 ## Technologies Used
 
 - React
-- useState hook
 - Bootstrap for styling
 
 ## Getting Started
