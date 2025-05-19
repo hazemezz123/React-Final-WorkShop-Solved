@@ -1,12 +1,37 @@
-# React + Vite
+# React 3 - Counter Application with useReducer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that implements counter functionality using the useReducer hook for more complex state management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Increment counter
+- Decrement counter
+- Reset counter to zero
+- Clean, responsive UI using Bootstrap
 
-## Expanding the ESLint configuration
+## Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Counter**: Main component that uses the useReducer hook to manage state
+
+## How It Works
+
+The application uses the useReducer hook to manage the counter state. A reducer function handles three action types:
+
+- `increment`: Increases the counter by 1
+- `decrement`: Decreases the counter by 1
+- `reset`: Sets the counter back to zero
+
+The reducer pattern provides a more structured approach to state management compared to useState, making it suitable for more complex state logic.
+
+## Technologies Used
+
+- React
+- useReducer hook
+- Bootstrap for styling
+
+## Getting Started
+
+```
+npm install
+npm run dev
+```

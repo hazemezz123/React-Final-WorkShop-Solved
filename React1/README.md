@@ -1,12 +1,36 @@
-# React + Vite
+# React 1 - FakeStore Products Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays products from the FakeStore API. The application uses the Context API for global state management and React Router for navigation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches and displays products from the FakeStore API
+- Uses Context API for global state management
+- Responsive design using Bootstrap
+- Navigation using React Router
 
-## Expanding the ESLint configuration
+## Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Navbar**: Navigation across the application
+- **ProductList**: Displays all products in a grid of cards
+- **Footer**: Displays footer information
+- **NotFound**: Handles invalid routes
+
+## Technologies Used
+
+- React
+- Context API
+- React Router DOM
+- Axios for API requests
+- Bootstrap for styling
+
+## API
+
+The application uses the [FakeStore API](https://fakestoreapi.com/products) to fetch product data.
+
+## Getting Started
+
+```
+npm install
+npm run dev
+```

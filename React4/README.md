@@ -1,12 +1,43 @@
-# React + Vite
+# React 4 - News Articles Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that fetches and displays news articles from different sources using the News API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays general news articles
+- Displays BBC news articles
+- Navigation between different news categories
+- Context API for global state management
+- React Router for navigation
 
-## Expanding the ESLint configuration
+## Components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **GeneralArticles**: Displays general news articles
+- **BBCArticles**: Displays BBC news articles
+- **Navbar**: Provides navigation between news categories
+- **Home**: Landing page for the application
+
+## How It Works
+
+The application uses the Context API to manage the news article data globally. It fetches data from the News API and displays it in a user-friendly format with a clean, responsive layout using Bootstrap.
+
+## Technologies Used
+
+- React
+- Context API
+- React Router DOM
+- Axios for API requests
+- Bootstrap for styling
+
+## API
+
+The application uses the News API to fetch news articles from different sources and categories.
+
+## Getting Started
+
+```
+npm install
+npm run dev
+```
+
+**Note**: You'll need to have a valid News API key to run this application properly.
